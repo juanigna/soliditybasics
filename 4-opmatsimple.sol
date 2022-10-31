@@ -7,8 +7,8 @@ pragma solidity ^0.8.6;
 
 contract Ejercicio3{
 
-    function evaluar(uint a, uint b) public view returns(uint){
-        uint suma = a + b;
-        return suma;
+    function evaluar(uint a, uint b) public pure returns(uint){
+        uint resultado = ((a + b)-(a-b));
+        return resultado;
     }
 }

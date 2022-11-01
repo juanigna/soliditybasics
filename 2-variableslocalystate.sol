@@ -5,8 +5,8 @@ De igual manera, tenes que crear una variable local e iniciarla con 20 y luego t
 pragma solidity ^0.8.6;
 
 contract Ejercicio2{
-    uint public stateVarible = 10;
-    uint localVariable = 20;
+    uint  stateVarible = 10;
+    
 
 
    function returnStateVariable() public view returns(uint){
@@ -15,6 +15,7 @@ contract Ejercicio2{
 
 
    function returnLocalVariable() public view returns(uint){
+       uint localVariable = 20;
        return localVariable;
    }
 }

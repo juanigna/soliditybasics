@@ -8,7 +8,7 @@ contract Ejercicio5{
 
     function find(uint a) public pure returns(uint){
         if(a>0){
-            uint resto =a%3;
+            uint resto = a%3;
             return  resto;
         }
     }

@@ -14,7 +14,7 @@ contract Ejercicio2{
    }
 
 
-   function returnLocalVariable() public view returns(uint){
+   function returnLocalVariable() public pure returns(uint){
        uint localVariable = 20;
        return localVariable;
    }
